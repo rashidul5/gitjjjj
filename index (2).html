@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modul 3 HTML form</title>
+    <style>
+        table{
+            background-color: rgb(229, 237, 245);
+        }
+        table, table {
+            width: 100%;height: 100%;
+            /*border: 1px solid red;*/
+        }
+        body {
+            font-family: sans-serif;
+        }
+        input{
+            width: 200px;
+            display: block;
+            border: 1px solid purple;
+            padding: 10px;
+            margin: 5px 0px;
+            border-radius: 10px;
+        }
+       
+        
+        
+    </style>
+    
+</head>
+<body>
+    <form style=" width: 768px; margin: 0 auto; border: 1px solid red; padding: 10px;" action="#" method="#" enctype="multipart/form-data ">
+        <fieldset>
+            <legend> Regestration form</legend>
+        
+    <table style="width: 100%;">
+        <tr>
+            <td>
+                
+                <table>
+                    <tr> 
+                        <td style="text-align: center;">
+                            <img height="80" src="Rashidul Islam.jpg"
+
+                        </td>
+                    </tr>
+                    <tr> 
+                        <td style="text-align: center;">
+                            <h3 style="margin: 0;"> Rasidul Islam</h3>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table>
+                    <tr>
+                        <td>
+                            <label for="name">
+                            Name:
+                        </label>
+                        </td>
+                        <td>
+                            <input id="name" name="name" type="text">
+
+                        </td>
+                    </tr>
+                
+                
+                    <tr>
+                        <td>
+                            <label for="email"> 
+                            Email:
+                        </label>
+                        </td>
+                        <td>
+                            <input id="email" name="email" type="text">
+
+                        </td>
+                    </tr>
+                
+                
+                    <tr>
+                        <td>
+                            <label for="Mobile">
+                           Mobile :
+                        </label>
+                        </td>
+                        <td>
+                            <input min="5" max="11" type="number">
+
+                        </td>
+                    </tr>
+                
+                
+                    <tr>
+                        <td>
+                            <label for="dob">
+                            dob:
+                        </label>
+                        </td>
+                        <td>
+                            <input id="dob" name="dob" type="date">
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>  
+                            <label for="Relegion">
+                           Relegion :
+                        </label>
+                        </td>
+                        <td>
+                            <input id="Relegion" name="Relegion" type="radio">Muslim
+                            <input id="Relegion" name="Relegion" type="radio">Hindu
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="Gender">
+                            Gender:
+                        </label>
+                        </td>
+                        <td>
+                            <select id="gender" name="gender">
+                                <option value="male">Male</option>
+                                <option value="femal">femal</option>
+                            </select>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                           <label for="descripton"></label>
+                           Description :
+                        </td>
+                        <td>
+                           <textarea name="descripton" name="descripton"></textarea>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                          image  :
+                        </td>
+                        <td>
+                            <input type="file">
+
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button type="submit"> Submit</button>
+                <button type="reset"> Reset</button>
+            </td>
+        </tr>
+    </table>
+</fieldset>
+</form>
+
+</body>
+</html>
